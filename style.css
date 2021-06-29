@@ -1,0 +1,56 @@
+.container
+{
+    
+    text-align:center;
+    margin-top: 24px;
+    padding-top:60px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+}
+input
+{
+    font-size:35px;
+    border:0;
+    border-top: 10px solid black ;
+    height:100px;
+    width:282px;
+    margin:0;
+}
+button
+{
+    font-size: 30px;
+    background: black;
+    color:white;
+    width:70px;
+    height:80px;
+    
+}
+.calaculator
+{
+   display:inline-block; 
+   border-radius: 5px;
+   height:430px;
+   width:282px;
+   background-color:black ; 
+}
+body
+{
+    
+    height:633px;
+    background-image:radial-gradient(rgba(220, 11, 11, 0.5),rgb(179, 172, 172)) , url("calaculator.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:0;
+    margin:0;
+}
+@media (max-width:1120px)
+{
+    body{
+        height: 720px;
+    }
+}
+
